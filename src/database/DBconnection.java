@@ -12,6 +12,7 @@ import javax.swing.JOptionPane;
 
 public class DBconnection {
     private Connection connection;
+    private Connection connection2;
     private Statement statement;
 
     public void connectToDB() throws ClassNotFoundException, SQLException {        
